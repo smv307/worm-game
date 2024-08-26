@@ -23,7 +23,7 @@ const drawFood = () => {
 // check for collisions between worm and food
 function checkFoodCollision(food) {
   const d = dist(x, y, food.x, food.y);
-  return d < 10; // Adjust this value based on your desired collision radius
+  return d < 10; // Adjust for collision radius
 }
 
 // draw worm segmant
